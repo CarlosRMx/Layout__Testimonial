@@ -1,0 +1,45 @@
+.main{
+    align-content: center;
+    height: 774px;
+}
+.banner{
+    grid-row: 1/2;
+    display: grid;
+    justify-content: center;
+    align-self: flex-start;
+    justify-self: center;
+    width: 32rem;
+    height: 32rem;
+    margin: 0 auto;
+    
+}
+.banner__background{
+    width: 132%;
+}
+.banner__background img{
+    width: 132%;
+}
+.banner__profile{
+    position: relative;
+    top: -34.8rem;
+    left: 5.2rem;
+    width: 32rem;
+    box-shadow: -9px 15px 23px -12px rgba(87,87,87,1);
+    -webkit-box-shadow: -9px 15px 23px -12px rgba(87,87,87,1);
+    -moz-box-shadow: -9px 15px 23px -12px rgba(87,87,87,1);
+}
+.content{
+    align-self: flex-end;
+    max-width: 52.6rem;
+}
+.content__quote{
+    font-size: var(--mx);
+    font-weight: 300;
+    color: var(--dark-Blue);
+}
+.content__name{
+    font-size: var(--ml);
+}
+.content__profession{
+    font-size: var(--ml);
+}
