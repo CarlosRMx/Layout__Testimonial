@@ -80,3 +80,10 @@ figure{
     font-size: var(--sm);
     color: var(--grayish-Blue);
 }
+
+footer{
+    max-width: 100%;
+}
+footer img{
+    margin-inline-start: -18px;
+}

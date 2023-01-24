@@ -20,13 +20,9 @@
     width: 132%;
 }
 .banner__profile{
-    position: relative;
     top: -34.8rem;
     left: 5.2rem;
     width: 32rem;
-    box-shadow: -9px 15px 23px -12px rgba(87,87,87,1);
-    -webkit-box-shadow: -9px 15px 23px -12px rgba(87,87,87,1);
-    -moz-box-shadow: -9px 15px 23px -12px rgba(87,87,87,1);
 }
 .content{
     align-self: flex-end;
@@ -42,4 +38,8 @@
 }
 .content__profession{
     font-size: var(--ml);
+}
+footer {
+    position: absolute;
+    bottom: 0;
 }

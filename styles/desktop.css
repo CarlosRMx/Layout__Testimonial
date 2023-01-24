@@ -1,0 +1,48 @@
+body{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 1fr;
+    column-gap: 400px;
+    max-width: 980px;
+}
+.banner{
+    grid-column: 2/4;
+}
+.banner__background{
+    width: 150%;
+}
+.banner__background img{
+    width: 150%;
+}
+.banner__profile{
+    top: -46.6rem;
+    left: 12rem;
+    width: 38rem;
+}
+.content{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    align-self: flex-end;
+}
+.content__quote{
+    margin-block-start: 2px;
+    margin-block-end: 28px;
+}
+.content__info{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.content__name{
+    margin-block-start: 0;
+}
+.content__profession{
+    margin-block-end: 0;
+}
